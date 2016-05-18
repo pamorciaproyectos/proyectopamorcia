@@ -4,24 +4,44 @@
     <meta charset="utf-8">
     <title>PamorciaProyectos</title>
     <link rel="stylesheet" href="views/estilos/css/estilos.css">
-
+    <link rel="stylesheet" href="views/estilos/css/iconos.css">
   </head>
   <body>
+    <header>
+      <div class="contenedor">
+        <div class="logo">
+          <span><h1>PamorciaPYC</h1></span>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Trabajos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="javascript:Login('visible');">login</a></li>
+            <li><a href="javascript:Registrar('visible');">Registrar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <a href="javascript:Login('visible');">login</a>
+
 <div id="Login">
   <div id="login_mensaje">
     <a href="javascript:Login('hidden');">x</a>
     <h4>INCIAR</h4>
   </div>
 </div>
-<a href="javascript:Registrar('visible');">Registrar</a>
+
 <div id="Registrar">
   <div id="registrar_mensaje">
     <a href="javascript:Registrar('hidden');">X</a>
     <h4>Registrate</h4>
   </div>
 </div>
+
+<script src="views/estilos/js/jquery.js"></script>
 <script src="views/estilos/js/estilos.js"></script>
   </body>
 </html>
