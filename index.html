@@ -4,29 +4,24 @@
     <meta charset="utf-8">
     <title>PamorciaProyectos</title>
     <link rel="stylesheet" href="views/estilos/css/estilos.css">
-    <script src="views/estilos/js/estilos.js"></script>
+
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="javascript:desplegar('visible');">ventana</a></li>
-      </ul>
-    </nav>
-    <div id="wrapper">
-    <div id="bgventana">
-        <div id="ventana">
-            <a href="javascript:desplegar('hidden');">Cerrar</a>
-            <form action="contact.php" method="post">
-                <label>Nombre:</label>
-                <input name="nombre" type="text"><br>
-                <label>Correo Electrónico:</label>
-                <input name="mail" type="text"><br>
-                <label>Dirección</label>
-                <input name="dir" type="text"><br>
-                <input type="submit" value="ENVIAR">
-            </form>
-        </div>
-    </div>
 
+    <a href="javascript:Login('visible');">login</a>
+<div id="Login">
+  <div id="login_mensaje">
+    <a href="javascript:Login('hidden');">x</a>
+    <h4>INCIAR</h4>
+  </div>
+</div>
+<a href="javascript:Registrar('visible');">Registrar</a>
+<div id="Registrar">
+  <div id="registrar_mensaje">
+    <a href="javascript:Registrar('hidden');">X</a>
+    <h4>Registrate</h4>
+  </div>
+</div>
+<script src="views/estilos/js/estilos.js"></script>
   </body>
 </html>
