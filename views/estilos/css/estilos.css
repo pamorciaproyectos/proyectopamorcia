@@ -71,9 +71,54 @@ header nav ul li:hover{
   margin: auto;
   background: rgba(255, 255, 255, 0.9);
   width: 25%;
-  height: 25%;
-  top: 50%;
+
+  top: 20%;
   left: 25%;
+}
+.formulario h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.formulario input[type=text], input[type=password], input[type=submit]{
+  display: block;
+  padding: 10px;
+  width: 95%;
+  margin: 30px 10px;
+  font-size: 20px;
+}
+.formulario .cancelar{
+  display: block;
+  padding: 10px;
+  width: 95%;
+  margin: 30px 10px;
+  background: rgb(249, 52, 52);
+  color:  rgba(255, 255, 255, 1);
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  opacity: .7;
+}
+.formulario .cancelar:hover{
+  opacity: 1;
+}
+input[type=submit]{
+  background: rgba(2, 67, 91, 0.94);
+  color: rgba(255, 255, 255, 1);
+  border: 0;
+  cursor: pointer;
+  opacity: .7;
+}
+input[type=submit]:hover{
+  opacity: 1
+}
+input[type=checkbox], label{
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.formulario p{
+  padding: 10px;
 }
 #Registrar{
   position: fixed;
