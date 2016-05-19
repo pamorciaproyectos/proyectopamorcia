@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>PamorciaProyectos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="views/estilos/css/estilos.css">
-
+    <link rel="stylesheet" href="views/estilos/css/iconos.css">
   </head>
   <body>
     <header>
@@ -12,18 +13,23 @@
   			<div class="logo">
   				<img src="http://dummyimage.com/200x100/000/fff&text=LOGO" alt="">
   			</div>
-  			<nav class="menu">
-  				<ul>
-  					<li><a href="#">Inicio</a></li>
-  					<li><a href="#">Blog</a></li>
-  					<li><a href="#">Proyectos</a></li>
-  					<li><a href="#">Trabajos</a></li>
-  					<li><a href="#">Contacto</a></li>
-            <li class="right"><a href="javascript:Login('visible');">login</a></li>
-            <li class="right"><a href="javascript:Registrar('visible');">Registrate</a></li>
-  				</ul>
-  			</nav>
-  		</div>
+      </div>
+        <div class="menu_bar">
+    			<a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+    		</div>
+        <div class="contenedor">
+    			<nav class="menu">
+    				<ul>
+    					<li><a href="#"><span class="icon-home"></span>Inicio</a></li>
+    					<li><a href="#"><span class="icon-laptop"></span>Blog</a></li>
+    					<li><a href="#"><span class="icon-rocket"></span>Proyectos</a></li>
+    					<li><a href="#"><span class="icon-suitcase"></span>Trabajos</a></li>
+    					<li><a href="#"><span class="icon-mail"></span>Contacto</a></li>
+              <li class="right"><a href="javascript:Login('visible');"><span class="icon-user"></span>Iniciar Sesión</a></li>
+              <li class="right"><a href="javascript:Registrar('visible');"><span class="icon-add-user"></span>Registrate</a></li>
+    				</ul>
+    			</nav>
+    		</div>
 	</header>
 
 
@@ -40,7 +46,7 @@
     <h4>Registrate</h4>
   </div>
 </div>
-
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
 <script src="views/estilos/js/jquery.js"></script>
 <script src="views/estilos/js/estilos.js"></script>
   </body>
