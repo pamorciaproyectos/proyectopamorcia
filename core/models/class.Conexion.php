@@ -3,7 +3,7 @@
 /**
  * Conexion a la base de dato
  */
-class ClassName extends mysqli
+class Conexion extends mysqli
 {
 
   function __construct(){

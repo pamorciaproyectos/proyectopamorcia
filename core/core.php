@@ -18,5 +18,6 @@ define('APP_URL', 'http://localhost/proyectos/proyectopamorcia/');
 #Estructura
 require('vendor/autoload.php');
 require('core/models/class.Conexion.php');
+require('core/bin/functions/Encrypt.php');
 
  ?>

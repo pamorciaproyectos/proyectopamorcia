@@ -1,9 +1,10 @@
 <?php
-require('core/core.php');
+
 if ($_POST) {
+  require('core/core.php');
   switch (isset($_GET['mode']) ? $_GET['mode'] : null) {
     case 'login':
-      require(CORE_DIR. 'bin/ajax/goLogin.php');
+      require('core/bin/ajax/goLogin.php');
       break;
 
     default:
